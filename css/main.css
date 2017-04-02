@@ -4,6 +4,7 @@
 
 .introduction {
 	background-color: black;
+	margin-bottom: 10px;
 }
 
 .name {
@@ -16,10 +17,23 @@
 
 
 }
+
+.personal-data-description {
+	background-color: black;
+	color: white;
+}
+
 .icon_pl {
 	height: 50px;
-	
 	margin: 10px;
 	position: relative;
     right: 30px;
+}
+
+li {
+	list-style: none;
+}
+
+.photo {
+
 }
