@@ -1,4 +1,4 @@
-.site {
+body {
 	background-color: #eee;
 }
 
@@ -17,17 +17,25 @@
 
 
 }
-
+.personal-data {
+	margin-bottom: 10px;
+}
 .personal-data-description {
 	background-color: black;
 	color: white;
 }
 
-.icon_pl {
+.icon_flag {
 	height: 50px;
 	margin: 10px;
 	position: relative;
     right: 30px;
+
+    -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+filter: grayscale(100%);
 }
 
 li {
@@ -35,5 +43,79 @@ li {
 }
 
 .photo {
-
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	margin: 0 auto;
 }
+
+.skills-description {
+	background-color: black;
+	color: white;
+}
+
+.icon-description-row {
+	width: 100%;
+	display: inline-flex;
+}
+
+.extras-row {
+	display: inline-block;
+}
+
+.icon-column {
+	width: 5%;
+	
+	
+}
+
+
+.description-column {
+	width: 95%;
+	
+}
+/*.skills-inline {
+	display: inline-block;	
+}*/
+
+.fa-arrow-right {
+	display:block;
+    text-align:center
+}
+
+.projects-description {
+	background-color: black;
+	color: white;
+}
+
+.courses-description {
+	background-color: black;
+	color: white;
+}
+
+.experience-description {
+	background-color: black;
+	color: white;
+}
+
+.date-column {
+	width: 20%;
+	
+}
+
+.description-date-column {
+	width: 80%;
+	
+}
+
+.date {
+	text-align: center;
+	vertical-align: middle;
+	/*line-height: 5px; */
+}
+
+.education-description {
+	background-color: black;
+	color: white;
+}
+
