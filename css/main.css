@@ -13,29 +13,32 @@ body {
 	padding: 10px;
 }
 
-.language {
-
-
-}
 .personal-data {
 	margin-bottom: 10px;
 }
+
 .personal-data-description {
 	background-color: black;
 	color: white;
 }
 
-.icon_flag {
+.icon_flag_inactive {
 	height: 50px;
 	margin: 10px;
 	position: relative;
     right: 30px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
 
-    -webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--o-filter: grayscale(100%);
--ms-filter: grayscale(100%);
-filter: grayscale(100%);
+.icon_flag_active {
+	height: 50px;
+	margin: 10px;
+	position: relative;
+    right: 30px;
 }
 
 li {
@@ -49,11 +52,6 @@ li {
 	margin: 0 auto;
 }
 
-.skills-description {
-	background-color: black;
-	color: white;
-}
-
 .icon-description-row {
 	width: 100%;
 	display: inline-flex;
@@ -65,10 +63,7 @@ li {
 
 .icon-column {
 	width: 5%;
-	
-	
 }
-
 
 .description-column {
 	width: 95%;
@@ -81,21 +76,6 @@ li {
 .fa-arrow-right {
 	display:block;
     text-align:center
-}
-
-.projects-description {
-	background-color: black;
-	color: white;
-}
-
-.courses-description {
-	background-color: black;
-	color: white;
-}
-
-.experience-description {
-	background-color: black;
-	color: white;
 }
 
 .date-column {
@@ -114,8 +94,27 @@ li {
 	/*line-height: 5px; */
 }
 
-.education-description {
+.container {
+	margin-bottom: 20px;
+}
+
+.header {
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
 	background-color: black;
 	color: white;
+	margin-bottom: 10px;
+	font-size:large;
+}
+
+.strength {
+	margin-bottom: 10px;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+footer {
+	font-size: small;
 }
 
