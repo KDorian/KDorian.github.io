@@ -33,6 +33,10 @@ height: 100%;
 
 }
 
+.container {
+	height: 100%;
+}
+
 .parallax2 {
     /* The image used */
     background-image: url("../images/polandball.png");
@@ -40,7 +44,7 @@ height: 100%;
     
     /* Full height */
     
-
+    width: 100%;
     min-height: 100%;
 
 
@@ -54,8 +58,22 @@ height: 100%;
 
 }
 
-.contact {
-	 style="height:1000px;
-	 background-color:red;
-	 font-size:36px;
+
+
+.caption p.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 75%;
+  text-align: center;
+  color: #000;
+/*  line-height:100px;*/
 }
