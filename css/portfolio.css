@@ -1,5 +1,9 @@
-body {
-	padding-top: 70px; 
+
+body, html {
+height: 100%;
+  margin: 0;
+  
+  color: #777;
 }
 
 .flag-menu {
@@ -7,3 +11,51 @@ body {
 	margin-right: 10px;
 }
 
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/photo.jpg");
+    /*background-color: #eee;*/
+    
+    /* Full height */
+    
+    min-height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/polandball.png");
+    /*background-color: #eee;*/
+    
+    /* Full height */
+    
+
+    min-height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.contact {
+	 style="height:1000px;
+	 background-color:red;
+	 font-size:36px;
+}
