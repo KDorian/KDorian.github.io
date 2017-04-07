@@ -11,51 +11,59 @@ height: 100%;
 	margin-right: 10px;
 }
 
-
-
-.parallax {
-    /* The image used */
-    background-image: url("../images/photo.jpg");
-    /*background-color: #eee;*/
-    
-    /* Full height */
-    
-    min-height: 100%;
-
-
-    /* Create the parallax scrolling effect */
-    position: relative;
+.parallax, .parallax2 {
+	position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.parallax {
+    background-image: url("../images/photo.jpg");
+    min-height: 100%;
+}
+
+.photo {
+	height: 100%;
+	width:100%;
 }
 
 .parallax2 {
-    /* The image used */
     background-image: url("../images/polandball.png");
-    /*background-color: #eee;*/
-    
-    /* Full height */
-    
-
-    min-height: 100%;
-
-
-    /* Create the parallax scrolling effect */
-    position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    min-height: 75%;
 }
 
-.contact {
-	 style="height:1000px;
-	 background-color:red;
-	 font-size:36px;
+
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  line-height:100%;
+}
+
+.container-fluid {
+	height: 100%;
+	width: 100%;
+	margin: auto 0;
+}
+
+.container {
+	height: 100%;
+	
+	margin: auto 0;
 }
