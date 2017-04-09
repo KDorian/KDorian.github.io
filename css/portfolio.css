@@ -9,7 +9,7 @@ body, html {
 	margin-right: 10px;
 }
 
-.parallax, .parallax2 {
+.parallax, .parallax2, .parallax3, .parallax4 {
 	position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -19,13 +19,14 @@ body, html {
 }
 
 .parallax {
-    background-image: url("../images/photo.jpg");
+    background-image: url("../images/creative.jpg");
     min-height: 50%;
 }
 
 .photo {
-	height: 100%;
-	width: 100%;
+	border-radius: 10%;
+  display: inline-block;
+  height: 250px;
 }
 
 .container {
@@ -33,7 +34,17 @@ body, html {
 }
 
 .parallax2 {
-    background-image: url("../images/polandball.png");
+    background-image: url("../images/android.jpg");
+    min-height: 50%;
+}
+
+.parallax3 {
+    background-image: url("../images/team.jpg");
+    min-height: 50%;
+}
+
+.parallax4 {
+    background-image: url("../images/java.jpg");
     min-height: 50%;
 }
 
@@ -65,7 +76,7 @@ body, html {
 .centering {
   display:block;
   text-align:center;
-}
+  }
 
 .pads {
   padding: 20px;
@@ -73,4 +84,26 @@ body, html {
 
 .progress {
   width: 50%;
+}
+
+.text-padding {
+  padding: 100px 0;
+}
+
+.bar-style {
+  color: #ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+h2 {
+  text-align:center;
+}
+
+.name {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
