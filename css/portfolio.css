@@ -1,0 +1,109 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.flag-menu {
+	height: 17px;
+	margin-right: 10px;
+}
+
+.parallax, .parallax2, .parallax3, .parallax4 {
+	position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax {
+    background-image: url("../images/creative.jpg");
+    min-height: 50%;
+}
+
+.photo {
+	border-radius: 10%;
+  display: inline-block;
+  height: 250px;
+}
+
+.container {
+	height: 100%;
+}
+
+.parallax2 {
+    background-image: url("../images/android.jpg");
+    min-height: 50%;
+}
+
+.parallax3 {
+    background-image: url("../images/team.jpg");
+    min-height: 50%;
+}
+
+.parallax4 {
+    background-image: url("../images/java.jpg");
+    min-height: 50%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  
+}
+
+.container-fluid {
+	height: 100%;
+	width: 100%;
+	margin: auto 0;
+}
+
+.caption span.border {
+  background-color: #282E34;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+.centering {
+  display:block;
+  text-align:center;
+  }
+
+.pads {
+  padding: 20px;
+}
+
+.progress {
+  width: 50%;
+}
+
+.text-padding {
+  padding: 100px 0;
+}
+
+.bar-style {
+  color: #ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+h2 {
+  text-align:center;
+}
+
+.name {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
