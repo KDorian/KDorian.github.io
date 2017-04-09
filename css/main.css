@@ -43,10 +43,11 @@ li {
 }
 
 .photo {
-	width: 50%;
-	height: 50%;
+	
+	height: 250px;
 	text-align: center;
 	margin: 0 auto;
+	border-radius: 10%;
 }
 
 .icon-description-row {
