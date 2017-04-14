@@ -2,6 +2,15 @@ body {
 	background-color: #eee;
 }
 
+hr {
+        border: 0;
+        clear:both;
+        display:block;
+        width: 96%;                
+        background-color:#000;
+        height: 1px;
+}
+
 .introduction {
 	background-color: black;
 	margin-bottom: 10px;
