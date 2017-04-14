@@ -58,7 +58,7 @@
   		</h2>
   		<hr>
   		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4" data-toggle="modal" data-target="#firstProject">
 	    		<div class="row">
 					<div class="centering">
 		    			<div class="col-md-4">
@@ -72,7 +72,7 @@
 	    			</div>
 	    		</div>
 	    	</div>
-	    	<div class="col-md-4">
+	    	<div class="col-md-4" data-toggle="modal" data-target="#secondProject">
 	    		<div class="row">
 					<div class="centering">
 		    			<div class="col-md-4">
@@ -86,7 +86,7 @@
 	    			</div>
 	    		</div>
 	    	</div>
-	    	<div class="col-md-4">
+	    	<div class="col-md-4"  data-toggle="modal" data-target="#thirdProject">
 	    		<div class="row">
 					<div class="centering">
 		    			<div class="col-md-4">
@@ -237,6 +237,63 @@
     			</div>
     		</footer>
 	</div>
+
+	<!-- Modals -->
+    <div class="modal fade" id="firstProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">First Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/555.jpeg">
+                    <p>
+											First Project Description
+										</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+		<div class="modal fade" id="secondProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Second Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/555.jpeg">
+										<p>
+											Second Project Description
+										</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+		<div class="modal fade" id="thirdProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Third Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/555.jpeg">
+                    Third Project Description
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="js/portfolio.js" type="text/javascript" charset="utf-8" async defer></script>
