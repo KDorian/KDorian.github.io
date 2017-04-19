@@ -22,16 +22,6 @@ body, html {
     min-height: 100%;
 }
 
-.photo {
-	border-radius: 10%;
-  display: inline-block;
-  max-height: 250px;
-}
-
-.container {
-	height: 100%;
-}
-
 .parallax2 {
     background-image: url("../images/android.jpg");
     min-height: 50%;
@@ -45,6 +35,16 @@ body, html {
 .parallax4 {
     background-image: url("../images/java.jpg");
     min-height: 50%;
+}
+
+.photo {
+	border-radius: 10%;
+  display: inline-block;
+  max-height: 250px;
+}
+
+.container {
+	height: 100%;
 }
 
 .caption {
@@ -71,7 +71,6 @@ body, html {
   letter-spacing: 10px;
 }
 
-
 .centering {
   display:block;
   text-align:center;
@@ -79,14 +78,6 @@ body, html {
 
 .pads {
   padding: 20px;
-}
-
-.progress {
-  width: 50%;
-}
-
-.text-padding {
-  padding: 100px 0;
 }
 
 .bar-style {
@@ -105,4 +96,19 @@ h2 {
   text-align: center;
   font-size: 4rem;
   margin-bottom: 20px;
+}
+
+.marg {
+  margin-bottom: 50px;
+}
+
+.modal-dialog {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.modal-content {
+  margin: 0 auto;
 }
