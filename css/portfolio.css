@@ -112,3 +112,7 @@ h2 {
 .modal-content {
   margin: 0 auto;
 }
+
+.photo-modal {
+  max-height: 300px;
+}
