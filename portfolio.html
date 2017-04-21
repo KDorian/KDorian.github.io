@@ -71,7 +71,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="col-md-4 marg" data-toggle="modal" data-target="#secondProject">
+	    <div class="col-md-4 marg" data-toggle="modal" data-target="#profgoetheProject">
 	    	<div class="row">
 					<div class="centering">
 		    		<div class="col-md-4">
@@ -87,7 +87,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="col-md-4 marg"  data-toggle="modal" data-target="#thirdProject">
+	    <div class="col-md-4 marg"  data-toggle="modal" data-target="#tictactoeProject">
 	    	<div class="row">
 					<div class="centering">
 		    		<div class="col-md-4">
@@ -299,7 +299,7 @@
     </div>
   </div>
 
-	<div class="modal fade" id="secondProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal fade" id="profgoetheProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -308,9 +308,44 @@
 					</h4>
         </div>
 	      <div class="modal-body">
-	        <img class="img-responsive photo-modal" src="images/projects/prof-goethe/profgoethe1.png">
-					<p>
-						Second Project Description
+					<div class="center-block">
+						<div id="carousel-profgoethe" class="carousel slide" data-ride="carousel">
+	  					<!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-profgoethe" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-profgoethe" data-slide-to="1"></li>
+						    <li data-target="#carousel-profgoethe" data-slide-to="2"></li>
+								<li data-target="#carousel-profgoethe" data-slide-to="3"></li>
+						  </ol>
+	  					<!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						      <img class="android center-block img-responsive" src="images/projects/prof-goethe/profgoethe1.png" alt="start of game">
+						    </div>
+						    <div class="item">
+						      <img class="android center-block img-responsive" src="images/projects/prof-goethe/profgoethe2.png" alt="during the game">
+						    </div>
+								<div class="item">
+						      <img class="android center-block img-responsive" src="images/projects/prof-goethe/profgoethe3.png" alt="end of game">
+						    </div>
+								<div class="item">
+						      <img class="android center-block img-responsive" src="images/projects/prof-goethe/profgoethe4.png" alt="end of game">
+						    </div>
+						  </div>
+
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#carousel-profgoethe" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-profgoethe" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
+	        <p>
+						Second Project Description Second Project Description Second Project Description Second Project Description
 					</p>
 	      </div>
 	      <div class="modal-footer">
@@ -322,7 +357,7 @@
 	  </div>
 	</div>
 
-	<div class="modal fade" id="thirdProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal fade" id="tictactoeProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   	<div class="modal-dialog">
     	<div class="modal-content">
       	<div class="modal-header">
@@ -330,47 +365,41 @@
 						Tic tac toe
 					</h4>
         </div>
-        <div class="modal-body">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+        <div class="modal-body ">
+					<div class="center-block">
+						<div id="carousel-tictactoe" class="carousel slide" data-ride="carousel">
+	  					<!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-tictactoe" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-tictactoe" data-slide-to="1"></li>
+						    <li data-target="#carousel-tictactoe" data-slide-to="2"></li>
+						  </ol>
+	  					<!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						      <img class="center-block img-responsive" src="images/projects/tic-tac-toe/tictactoe1.png" alt="start of game">
+						    </div>
+						    <div class="item">
+						      <img class="center-block img-responsive" src="images/projects/tic-tac-toe/tictactoe2.png" alt="during the game">
+						    </div>
+								<div class="item">
+						      <img class="center-block img-responsive" src="images/projects/tic-tac-toe/tictactoe3.png" alt="end of game">
+						    </div>
+						  </div>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/projects/tic-tac-toe/tictactoe1.png" alt="...">
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#carousel-tictactoe" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-tictactoe" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
 
-    </div>
-    <div class="item">
-      <img src="images/projects/tic-tac-toe/tictactoe2.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-		<div class="item">
-      <img src="images/projects/tic-tac-toe/tictactoe3.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-          
-            Popular game designed in Java Swing, which recognizes victory.
+            Popular game designed in Java Swing, which recognizes victory. Popular game designed in Java Swing, which recognizes victory.
         </div>
   	    <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">

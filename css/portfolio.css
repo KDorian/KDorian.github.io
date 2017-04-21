@@ -116,3 +116,17 @@ h2 {
 .photo-modal {
   max-height: 300px;
 }
+
+.carousel {
+  margin-bottom: 15px;
+  background-color: #000000;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-height: 400px;
+
+}
+
+.android {
+  max-height: 400px;
+}
