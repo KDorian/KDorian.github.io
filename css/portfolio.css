@@ -119,14 +119,9 @@ h2 {
 
 .carousel {
   margin-bottom: 15px;
-  background-color: #000000;
+  background-color: #282E34;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    max-height: 400px;
-
-}
-
-.android {
-  max-height: 400px;
+    max-height: 500px;
 }
