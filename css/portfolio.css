@@ -88,8 +88,11 @@ body, html {
   text-align: justify;
 }
 
-h2 {
+h2, h1 {
   text-align:center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
 }
 
 .name {
@@ -124,4 +127,8 @@ h2 {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     max-height: 500px;
+}
+
+section {
+  height:100%;
 }
