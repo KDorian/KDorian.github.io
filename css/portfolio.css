@@ -8,7 +8,10 @@ body, html {
 	margin-right: 10px;
 }
 
-.parallax, .parallax2, .parallax3, .parallax4 {
+.parallax,
+.parallax2,
+.parallax3,
+.parallax4 {
 	position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -88,7 +91,8 @@ body, html {
   text-align: justify;
 }
 
-h2, h1 {
+h2,
+h1 {
   text-align:center;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -125,7 +129,8 @@ h2, h1 {
   background-color: #282E34;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
     max-height: 500px;
 }
 
