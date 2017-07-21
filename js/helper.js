@@ -27,9 +27,9 @@ var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectUrl = '<a href="#">'
+var HTMLprojectUrl = '<a href="#">';
 var HTMLprojectTitle = '%data%</a>';
-var HTMLprojectTitleWithoutUrl = '<p>%data%</p>'
+var HTMLprojectTitleWithoutUrl = '<p>%data%</p>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img id="project-photo" src="%data%">';

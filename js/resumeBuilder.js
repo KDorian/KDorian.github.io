@@ -21,10 +21,6 @@ var bio = {
     var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
     var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
     $("#topContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLocation);
-    var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-    var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-    var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-    var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
     $("#footerContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLocation);
     var formattedPic = HTMLbioPic.replace("%data%",bio.biopic);
     var formattedWelcome = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
@@ -81,7 +77,7 @@ var work = {
       var formattedWorkDescription = HTMLworkDescription.replace("%data%", job.description);
       var formattedWorkLocation = HTMLworkLocation.replace("%data%", job.city);
       $(".work-entry:last").append(formattedEmployerTitle, formattedDates, formattedWorkLocation, formattedWorkDescription);
-    })
+    });
   }
 };
 
