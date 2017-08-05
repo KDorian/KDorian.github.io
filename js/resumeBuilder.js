@@ -35,7 +35,7 @@ var bio = {
     }
     if (bio.gallupStrengths.length > 0) {
       $("#skill").append(HTMLgallupStart);
-      for (var i = 0; i < bio.gallupStrengths.length; i++) {
+      for (i = 0; i < bio.gallupStrengths.length; i++) {
         var formattedGallup = HTMLgallup.replace("%data%", bio.gallupStrengths[i]);
         $("#gallup").append(formattedGallup);
       }
@@ -146,7 +146,7 @@ var projects = {
         $(".project-entry:last").append(formattedUrlTitle, formattedDate, formattedDescription);
       }
       if (project.images.length > 0) {
-        for (var i = 0; i < project.images.length; i++) {
+        for (i = 0; i < project.images.length; i++) {
           var formattedImage = HTMLprojectImage.replace("%data%", project.images[i]);
           $(".project-entry:last").append(formattedImage);
         }
