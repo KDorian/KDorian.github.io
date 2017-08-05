@@ -28,14 +28,14 @@ var bio = {
     $("#welcome").append(formattedWelcome);
     if (bio.skills.length > 0) {
       $("#skill").append(HTMLskillsStart);
-      for (i = 0; i < bio.skills.length; i++) {
+      for (var i = 0; i < bio.skills.length; i++) {
         var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
         $("#skills").append(formattedSkill);
       }
     }
     if (bio.gallupStrengths.length > 0) {
       $("#skill").append(HTMLgallupStart);
-      for (i = 0; i < bio.gallupStrengths.length; i++) {
+      for (var i = 0; i < bio.gallupStrengths.length; i++) {
         var formattedGallup = HTMLgallup.replace("%data%", bio.gallupStrengths[i]);
         $("#gallup").append(formattedGallup);
       }
@@ -146,7 +146,7 @@ var projects = {
         $(".project-entry:last").append(formattedUrlTitle, formattedDate, formattedDescription);
       }
       if (project.images.length > 0) {
-        for (i = 0; i < project.images.length; i++) {
+        for (var i = 0; i < project.images.length; i++) {
           var formattedImage = HTMLprojectImage.replace("%data%", project.images[i]);
           $(".project-entry:last").append(formattedImage);
         }
@@ -162,7 +162,7 @@ var education = {
         "location": "Bema 76, Warsaw",
         "city": "Warsaw",
         "degree": "High school diploma",
-        "majors": "Mathematics, History, Geography",
+        "majors": ["Mathematics", "History", "Geography"],
         "dates": "2006-2009",
         "url": "https://www.kopernik.edu.pl/",
       },
@@ -171,7 +171,7 @@ var education = {
         "location": "Kaliskiego 2, Warsaw",
         "city": "Warsaw",
         "degree": "Almost engineering degree :)",
-        "majors": "Mechatronics and Aerospace: Robotics & Automatics",
+        "majors": ["Mechatronics and Aerospace: Robotics & Automatics"],
         "dates": "2010-2014",
         "url": "http://www.wat.edu.pl/"
       }
