@@ -28,7 +28,7 @@ var bio = {
     $("#welcome").append(formattedWelcome);
     if (bio.skills.length > 0) {
       $("#skill").append(HTMLskillsStart);
-      for (var i = 0; i < bio.skills.length; i++) {
+      for (i = 0; i < bio.skills.length; i++) {
         var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
         $("#skills").append(formattedSkill);
       }
