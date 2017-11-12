@@ -107,6 +107,8 @@ h1 {
 
 .marg {
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .modal-dialog {
@@ -136,4 +138,8 @@ h1 {
 
 section {
   height:100%;
+}
+
+.pointer {
+	cursor: pointer;
 }

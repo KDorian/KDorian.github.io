@@ -3,12 +3,8 @@ body {
 }
 
 hr {
-        
-        
-        
-                       
-        background-color:#000;
-        height: 1px;
+	background-color:#000;
+	height: 1px;
 }
 
 .introduction {
@@ -25,8 +21,6 @@ hr {
 .personal-data {
 	margin-bottom: 10px;
 }
-
-
 
 .icon_flag_inactive {
 	height: 50px;
@@ -52,7 +46,6 @@ li {
 }
 
 .photo {
-	
 	height: 250px;
 	text-align: center;
 	margin: 0 auto;
@@ -83,12 +76,12 @@ li {
 
 .date-column {
 	width: 20%;
-	
+
 }
 
 .description-date-column {
 	width: 80%;
-	
+
 }
 
 .date {
@@ -120,4 +113,3 @@ li {
 footer {
 	font-size: x-small;
 }
-
