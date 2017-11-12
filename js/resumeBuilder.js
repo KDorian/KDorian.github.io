@@ -84,12 +84,36 @@ var work = {
 var projects = {
   "projects": [
     {
+      "title": "Pixel Art Maker",
+      "dates": 2017,
+      "description": "Make your own icon. Pick the size of grid and then you can color every cell of it.",
+      "images": ["images/projects/pixel-art-maker/pixelartmaker1.png", "images/projects/pixel-art-maker/pixelartmaker2.png", "images/projects/pixel-art-maker/pixelartmaker3.png", "images/projects/pixel-art-maker/pixelartmaker4.png"],
+      "alt": ["Pixel Art Maker"],
+      "url": "https://github.com/KDorian/Pixel-Art-Maker"
+    },
+    {
+      "title": "To Do List",
+      "dates": 2017,
+      "description": "Simple To Do List in JavaScript. It works after refreshing page.",
+      "images": ["images/projects/to-do-list/todolist1.png", "images/projects/to-do-list/todolist2.png", "images/projects/to-do-list/todolist3.png"],
+      "alt": ["To Do List"],
+      "url": "https://github.com/KDorian/ToDo-List"
+    },
+    {
       "title": "My portfolio",
       "dates": 2017,
       "description": "My portfolio",
       "images": ["images/projects/portfolio/portfolio1.jpg"],
       "alt": ["My portfolio"],
       "url": "https://kdorian.github.io/portfolio"
+    },
+    {
+      "title": "Weather Forecast App",
+      "dates": 2017,
+      "description": "Weather forecast app from OpenWeatherMap API using Volley Library",
+      "images": ["images/projects/weather-app/weatherapp1.png", "images/projects/weather-app/weatherapp2.png"],
+      "alt": ["Weather Forecast App"],
+      "url": "https://github.com/KDorian/Weather-Forecast-App"
     },
     {
       "title": "Got App",
@@ -106,6 +130,14 @@ var projects = {
       "images": ["images/projects/prof-goethe/profgoethe1.png", "images/projects/prof-goethe/profgoethe3.png", "images/projects/prof-goethe/profgoethe4.png"],
       "alt": ["Main screen of Prof Goethe application", "Screen of sidebar with helps with the choosing of unit", "Screen that is showing unit 4th"],
       "url": "https://github.com/KDorian/Prof-Goethe"
+    },
+    {
+      "title": "Blackjack",
+      "dates": 2017,
+      "description": "Blackjack game in Java (used BreezySwing library).",
+      "images": ["images/projects/blackjack/blackjack1.png", "images/projects/blackjack/blackjack2.png", "images/projects/blackjack/blackjack3.png", "images/projects/blackjack/blackjack4.png", "images/projects/blackjack/blackjack5.png"],
+      "alt": ["Starting sceen of Tic TAc Toe", "Screen presenting the game", "Screen showing the winning screen"],
+      "url": "https://github.com/KDorian/Tic-tac-toe"
     },
     {
       "title": "Tic Tac Toe",
@@ -192,7 +224,7 @@ var education = {
       {
         "title": "Front-End Web Developer Nanodegree",
         "school": "Udacity",
-        "dates": "2017",
+        "dates": "04.2017 - currently",
         "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
       },
       {
@@ -200,6 +232,12 @@ var education = {
         "school": "Goethe Institute in Warsaw",
         "dates": "10.2014 - currently",
         "url": "https://www.goethe.de/ins/pl/pl/sta/war.html",
+      },
+      {
+        "title": "Google Developer Challenge Scholarship: the Android Developer track",
+        "school": "Udacity",
+        "dates": "11.2017 - currently",
+        "url": "https://www.udacity.com/google-scholarships",
       }
     ],
     "display": function() {
