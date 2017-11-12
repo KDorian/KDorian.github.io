@@ -151,7 +151,7 @@ var projects = {
       "title": "Drukomatic",
       "dates": "2014-2015",
       "description": "Project of 3D printer for Robomatic scientific circle. I was responsible for the programming aspect of this project.",
-      "images": ["images/projects/drukomatic/drukomatic1.JPG", "images/projects/drukomatic/drukomatic2.JPG", "images/projects/drukomatic/drukomatic3.JPG"],
+      "images": ["images/projects/drukomatic/drukomatic1.png", "images/projects/drukomatic/drukomatic2.png", "images/projects/drukomatic/drukomatic3.png"],
       "alt": ["Drukomatic during assembly", "Drukomatic's work area", "Drukomatic while printing"],
       "url": "-"
     },
