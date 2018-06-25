@@ -105,7 +105,7 @@ var projects = {
       "description": "My portfolio",
       "images": ["images/projects/portfolio/portfolio1.jpg"],
       "alt": ["My portfolio"],
-      "url": "https://kdorian.github.io/portfolio"
+      "url": "https://kdorian.github.io/My-portfolio"
     },
     {
       "title": "Weather Forecast App",
